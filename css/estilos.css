@@ -1,18 +1,23 @@
 .piedePagina{
-    background-color: green;
+    background-color: rgb(73, 72, 72);
     color: aquamarine;
     text-align: center;
     font-weight: bold;
     padding: 20px;
     position: fixed;
+    width: 100%;
+    left: 0%;
+    bottom: 0px;
     
 }
 body, html {
     height: 100%;
+    background-color: rgb(16, 4, 61);
   }
 
 .bg {
     /* The image used */
+    margin-top: 0%;
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
   
     /* Full height */
@@ -21,7 +26,7 @@ body, html {
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
   }
 
   .bg1 {
@@ -35,5 +40,9 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  h2{
+    color: cornsilk;
   }
 
