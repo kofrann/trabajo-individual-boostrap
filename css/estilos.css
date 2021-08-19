@@ -18,22 +18,10 @@ body, html {
 .bg {
     /* The image used */
     margin-top: 0%;
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+    background-image:url("../imagenes/proyectoWeb.png") ;
   
     /* Full height */
-    height: 100%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-  }
-
-  .bg1 {
-    /* The image used */
-    background-image: url("../imagenes/fondo2.jpg");
-  
-    /* Full height */
+    width: 100%;
     height: 100%;
   
     /* Center and scale the image nicely */
@@ -41,6 +29,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  
 
   h2{
     color: cornsilk;
@@ -54,3 +44,22 @@ body, html {
     color: #fff;
     
   }
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.carousel-inner  { 
+  border: solid white;
+  margin: auto;
+  align-items: center;
+  width:50%; 
+  
+}
+
+.parrafoindex{
+  font-size: 2rem;
+  color: yellow;
+  -webkit-text-stroke: 0.3px black;
+  text-shadow: 1px 1px 2px black;
+  
+}
